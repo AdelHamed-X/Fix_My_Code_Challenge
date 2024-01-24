@@ -19,11 +19,12 @@ class square():
 
     def PermiterOfMySquare(self):
         """ Perimeter of the square """
-        return (self.width * 2) + (self.height * 2)
+        return self.width * 4
 
     def __str__(self):
         """ String Representation of an instance """
         return "{}/{}".format(self.width, self.height)
+
 
 if __name__ == "__main__":
 
